@@ -1,6 +1,6 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
+  "name": "inquirer",
+  "version": "8.2.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "keywords": [
+    "inquirer"
+  ]
 }
