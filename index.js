@@ -22,7 +22,42 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    const [q1,q2,q3,q4,q5,q6] = questions
+    inquirer
+    .prompt([
+        {
+        type: "input",
+        message: q1,
+        name: "title"
+        },
+        {
+        type: "input",
+        message: q2,
+        name: "intro"
+        },
+        {
+        type: "input",
+        message: q3,
+        name: "userStory"
+        },
+        {
+        type: "input",
+        message: q4,
+        name: "application"
+        },
+        {
+        type: "input",
+        message: q5,
+        name: "contact"
+        },
+        {
+        type: "input",
+        message: q6,
+        name: "license"
+        }
+    ])
+}
 
 // Function call to initialize app
 init();
