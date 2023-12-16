@@ -1,22 +1,40 @@
 
-  # write readme file
+  # what ever
+
+  ## CONTENT
+ - [Introduction](#introduction)
+  
+ - [User Story](#user-story)
+ 
+ - [How to Use](#how-to-use)
+ 
+ - [Github Contact](#github-contact)
+ 
+ - [Contact Me](#contact-me)
+ 
+ - [License](#license)
+
   
   ## Introduction
-  when you run node index, you can insert the information that asked from application, then it will write readme file for you.
+  try it
   
   ## User Story
-  when I want to generate a readme file then I can run the node index, that application can write readme file I want to.
+  ok
   
   ## How to Use
-  run node index, put information, then the readme will write for you
+  no problem
+
+  ## Github Contact
+  This is my Github link
+  github.com/whowhowho@gmail.com
   
   ## Contact Me
   If you have any questions or you have some suggestions you can contact me with:
-  wuhongbo87@gmail.com
+  IBM 1.0
   
   ## License
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  undefined
  
-  This project is licensed under The MIT License see(https://opensource.org/licenses/MIT)for details.
+  undefined
   
   

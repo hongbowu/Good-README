@@ -13,6 +13,8 @@ const questions = [
     "You can add user story here.",
     //ask user to put how to use it
     "Can you explain how to use your application?",
+    //ask user github username
+    "What is your Github username?",
     //ask user the way to contact information
     "Leave the contact information to collect feedbacks.",
     //ask user what license will use or no license
@@ -25,7 +27,7 @@ function writeToFile(fileName, data) {
 }
 // TODO: Create a function to initialize app
 function init() {
-    const [q1,q2,q3,q4,q5,q6] = questions
+    const [q1,q2,q3,q4,q5,q6,q7] = questions
     inquirer
     .prompt([
         {
@@ -49,19 +51,24 @@ function init() {
         name: "application"
         },
         {
+            type: "input",
+            message: q5,
+            name: "username"
+        },
+        {
         type: "input",
-        message: q5,
+        message: q6,
         name: "contact"
         },
         {
         type: "list",
-        message: q6,
+        message: q7,
         name: "license",
         choices: ["The Unlicense","The MIT License","Apache 2.0 License","IBM 1.0","ISC License"]
         }
     ])
     .then((response)=>{
-        const {title, intro, userStory, application, contact, license} = response
+        const {title, intro, userStory, application,username, contact, license} = response
         writeToFile("sampleREADME.md", generateMarkdown(title,intro,userStory,application,contact,license))
     })
 }
