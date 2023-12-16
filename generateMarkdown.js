@@ -75,6 +75,7 @@ function generateMarkdown(title,intro,userStory,application,contact,license){
   ${application}
   
   ## Contact Me
+  If you have any questions or you have some suggestions you can contact me with:
   ${contact}
   
   ## License

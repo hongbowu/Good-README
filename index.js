@@ -62,7 +62,7 @@ function init() {
     ])
     .then((response)=>{
         const {title, intro, userStory, application, contact, license} = response
-        writeToFile("README.md", generateMarkdown(title,intro,userStory,application,contact,license))
+        writeToFile("sampleREADME.md", generateMarkdown(title,intro,userStory,application,contact,license))
     })
 }
 
