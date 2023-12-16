@@ -51,9 +51,9 @@ function init() {
         name: "application"
         },
         {
-            type: "input",
-            message: q5,
-            name: "username"
+        type: "input",
+        message: q5,
+        name: "username"
         },
         {
         type: "input",
@@ -69,7 +69,7 @@ function init() {
     ])
     .then((response)=>{
         const {title, intro, userStory, application,username, contact, license} = response
-        writeToFile("sampleREADME.md", generateMarkdown(title,intro,userStory,application,contact,license))
+        writeToFile("sampleREADME.md", generateMarkdown(title,intro,userStory,application,username,contact,license))
     })
 }
 

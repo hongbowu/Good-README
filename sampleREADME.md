@@ -1,40 +1,41 @@
 
-  # what ever
+  # whatever
 
   ## CONTENT
- - [Introduction](#introduction)
+  - [Introduction](#introduction)
   
- - [User Story](#user-story)
- 
- - [How to Use](#how-to-use)
- 
- - [Github Contact](#github-contact)
- 
- - [Contact Me](#contact-me)
- 
- - [License](#license)
+  - [User Story](#user-story)
+  
+  - [How to Use](#how-to-use)
+  
+  - [Github Contact](#github-contact)
+  
+  - [Contact Me](#contact-me)
+  
+  - [License](#license)
 
   
   ## Introduction
-  try it
+  good thing
   
   ## User Story
-  ok
+  when then good
   
   ## How to Use
-  no problem
+  easy
 
   ## Github Contact
-  This is my Github link
-  github.com/whowhowho@gmail.com
+  This is my Github link: 
+  github.com/hongbowu
   
   ## Contact Me
   If you have any questions or you have some suggestions you can contact me with:
-  IBM 1.0
+  whowhowho@gmail.com
   
   ## License
-  undefined
  
-  undefined
+  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+ 
+  This project is licensed under ISC License see [ISC License](https://opensource.org/licenses/ISC) for details.
   
   

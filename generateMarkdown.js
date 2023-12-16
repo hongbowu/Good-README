@@ -45,16 +45,16 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch(license) {
     case "The MIT License" :
-      return `This project is licensed under ${license} see(${renderLicenseLink(license)})for details.`
+      return `This project is licensed under ${license} see [${license}](${renderLicenseLink(license)}) for details.`
       break;
     case "Apache 2.0 License" :
-      return  `This project is licensed under ${license} see(${renderLicenseLink(license)})for details.`
+      return  `This project is licensed under ${license} see [${license}](${renderLicenseLink(license)}) for details.`
     break;
     case "IBM 1.0" :
-      return  `This project is licensed under ${license} see(${renderLicenseLink(license)})for details.`
+      return  `This project is licensed under ${license} see [${license}](${renderLicenseLink(license)}) for details.`
       break;
     case "ISC License" :
-      return  `This project is licensed under ${license} see(${renderLicenseLink(license)})for details.`
+      return  `This project is licensed under ${license} see [${license}](${renderLicenseLink(license)}) for details.`
       break;
     case "The Unlicense":
       return
@@ -89,7 +89,7 @@ function generateMarkdown(title,intro,userStory,application,username,contact,lic
   ${application}
 
   ## Github Contact
-  This is my Github link
+  This is my Github link: 
   github.com/${username}
   
   ## Contact Me
@@ -97,6 +97,7 @@ function generateMarkdown(title,intro,userStory,application,username,contact,lic
   ${contact}
   
   ## License
+ 
   ${renderLicenseBadge(license)}
  
   ${renderLicenseSection(license)}
