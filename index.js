@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const generateMarkdown = require("./generateMarkdown")
 const inquirer = require("inquirer")
-
+const fs = require("fs")
+// console.log("for test")
 // TODO: Create an array of questions for user input
 const questions = [
     //ask user to put project title
@@ -19,8 +20,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, "utf-8",(error)=> error ? console.error(error): console.log("success!"))
+}
 // TODO: Create a function to initialize app
 function init() {
     const [q1,q2,q3,q4,q5,q6] = questions
@@ -52,11 +54,16 @@ function init() {
         name: "contact"
         },
         {
-        type: "input",
+        type: "list",
         message: q6,
-        name: "license"
+        name: "license",
+        choices: ["The Unlicense","The MIT License","Apache 2.0 License","IBM 1.0","ISC License"]
         }
     ])
+    .then((response)=>{
+        const {title, intro, userStory, application, contact, license} = response
+        writeToFile("README.md", generateMarkdown(title,intro,userStory,application,contact,license))
+    })
 }
 
 // Function call to initialize app
