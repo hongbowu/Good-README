@@ -22,3 +22,6 @@ Email:wuhongbo87@gmail.com
 ## photos
 
   ![Alt text](<2023-12-15 220839.png>)![Alt text](<2023-12-15 220910.png>)![Alt text](<2023-12-15 220927.png>)![Alt text](<2023-12-15 220724.png>)
+
+## vedio
+https://drive.google.com/file/d/11jKiSNCAhcd1eIojdyIG_orG2I5DeEh3/view?usp=sharing
