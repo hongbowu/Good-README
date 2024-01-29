@@ -16,13 +16,13 @@
 
   
   ## Introduction
-  use node to run the index file to run the app then fellow the instroction to give some input
+  run node index and fellow the instroction
   
   ## User Story
-  when then good
+  easy to use
   
   ## How to Use
-  easy
+  open and run 
 
   ## Github Contact
   This is my Github link: 
